@@ -1,0 +1,76 @@
+/* Footer.css */
+
+/* Styles for the entire footer */
+.footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      margin: 0;
+    }
+    
+    /* Styles for the left section */
+    .left-section {
+      display: flex;
+      align-items: flex-start; /* Adjust alignment as needed */
+    }
+    
+    /* Styles for the logo */
+    .logo img {
+      max-width: 80px;
+      margin-right: 10px;
+    }
+    
+    /* Styles for the description */
+    .description p {
+      margin: 0;
+      font-size: 14px;
+    }
+    
+    /* Styles for the center section */
+    .center-section {
+      flex-grow: 1;
+    }
+    
+    /* Styles for the gallery */
+    .gallery {
+      display: flex;
+    }
+    
+    .gallery img {
+      max-width: 30px;
+      margin-right: 5px;
+    }
+    
+    /* Styles for the right section */
+    .right-section {
+      text-align: right;
+    }
+    
+    /* Styles for the quick links */
+    .quick-links h4 {
+      margin: 0 0 10px;
+    }
+    
+    .quick-links ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .quick-links li {
+      margin-bottom: 5px;
+    }
+    
+    /* Styles for additional links */
+    .additional-links p {
+      margin: 5px 0;
+      font-size: 12px;
+    }
+    #footer-image{
+      height: 8rem;
+      width: 8rem;
+      
+    }

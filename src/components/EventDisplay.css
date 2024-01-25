@@ -1,0 +1,88 @@
+/* EventDisplay.css */
+
+/* Styles for the entire event container */
+.event-container {
+  margin: 20px;
+}
+
+/* Styles for the event (image and details) */
+.event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for the image within the event container */
+.event img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the event details (name and description) */
+.event-details {
+  text-align: center;
+}
+
+.event-details h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.event-details p {
+  color: grey;
+  margin: 0;
+  font-size: 1em;
+}
+.imagepart{
+  margin: 50px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  column-gap: 3em;
+  row-gap: 3em;
+  position: relative;
+
+}
+/* EventDisplay.css */
+
+/* Styles for the entire event container */
+.event-container {
+  position: relative;
+  margin: 20px;
+}
+
+/* Styles for the image within the event container */
+.event-container img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Styles for the image overlay (event name and description) */
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+}
+
+.image-overlay h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.image-overlay p {
+  margin: 0;
+  font-size: 1em;
+}

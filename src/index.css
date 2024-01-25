@@ -1,0 +1,59 @@
+.img{
+      margin: 50px;
+      border-radius: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+      column-gap: 3em;
+      row-gap: 3em;
+      position: relative;
+
+
+
+
+}
+.image-text{
+      position: absolute;
+      top: 25px;
+      padding: 20px;
+      justify-content: center;
+}
+.logo{
+      position: relative;
+      width: 80px;
+
+}
+nav{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      background-color:white ;
+}
+.bar{
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: aliceblue;
+}
+nav ul{
+      display: flex;
+}
+nav ul li a{
+      display: block;
+      text-decoration: none;
+      color: azure;
+      padding: 1rem;
+
+}
+.menu{
+      display: flex;
+}
+.menu span{
+      margin-right: 20px;
+}
+button{
+      padding: 10px 15px;
+      background-color: blue;
+      color: white;
+      
+}
