@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import EventDisplay from '../components/EventDisplay';
 import Footer from '../components/Footer';
-const home = () => {
+const Home = () => {
   return (
     <div>
       <Navbar/>
@@ -32,4 +32,4 @@ const home = () => {
   )
 }
 
-export default home;
+export default Home;

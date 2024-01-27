@@ -1,0 +1,17 @@
+*{
+      margin: 0 0 0 0;
+}
+.bgimg{
+      text-align: center;
+      background-image: url(D:\frontend\public\Images\Image1.jpg);
+      background-size: cover;
+      height: 200px;
+}
+#text{
+      padding-top: 28px;
+}
+
+
+.sign_form{
+      
+}
