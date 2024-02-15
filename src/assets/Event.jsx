@@ -1,9 +1,13 @@
-import React from 'react'
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const Event = () => {
   return (
-    <div>Event</div>
-  )
-}
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
+  );
+};
 
-export default Event
+export default Event;

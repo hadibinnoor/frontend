@@ -1,0 +1,39 @@
+.sign_up {
+  border: 2px;
+  margin: 10rem auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: max-content;
+  height: 780px;
+  background-color: #3a40d8;
+  border-radius: 12px;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+h2,
+h4 {
+  color: white;
+}
+label {
+  color: white;
+}
+#labels {
+  background-color: #3a40d8;
+}
+textarea {
+  background-color: #3a40d8;
+}
+#submit-button {
+  width: 5rem;
+  margin-left: 13rem;
+  border-radius: 7px;
+}
+
+.sign_up ::placeholder {
+  color: silver;
+}
