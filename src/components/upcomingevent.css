@@ -1,0 +1,42 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top,
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top,
+.bottom {
+  width: 80%;
+}
+
+.top h1,
+.bottom h1 {
+  text-align: left;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .EventDisplay,
+.bottom .EventDisplay {
+  width: 45%;
+}
+.img-top {
+  display: flex;
+}
+.img-bottom {
+  display: flex;
+}
+.bottom {
+  margin-top: 15%;
+}

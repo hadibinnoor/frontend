@@ -5,6 +5,9 @@ import Event from "./assets/Event";
 import Contact from "./assets/Contact";
 import Login from "./components/Login";
 import SignUp from "./assets/SignUp";
+import Loginorg from "./components/Loginorg";
+import Thank from "./components/Thank";
+import Upcomigevent from "./components/Upcomigevent";
 
 const App = () => {
   return (
@@ -17,6 +20,9 @@ const App = () => {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Signup" element={<SignUp />} />
+          <Route path="/loginorg" element={<Loginorg />} />
+          <Route path="/Thank" element={<Thank />} />
+          <Route path="/Upcomigevent" element={<Upcomigevent />} />
         </Routes>
       </BrowserRouter>
     </div>

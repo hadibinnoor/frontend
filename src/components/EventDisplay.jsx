@@ -1,6 +1,5 @@
-// EventDisplay.js
-import React from 'react';
-import './EventDisplay.css';
+import PropTypes from "prop-types"; // Import PropTypes
+import "./EventDisplay.css";
 
 const EventDisplay = ({ imageSrc, eventName, description }) => {
   return (
@@ -12,6 +11,13 @@ const EventDisplay = ({ imageSrc, eventName, description }) => {
       <img src={imageSrc} alt={eventName} />
     </div>
   );
+};
+
+// Prop type validation
+EventDisplay.propTypes = {
+  imageSrc: PropTypes.string.isRequired, // Validate imageSrc as a string and is required
+  eventName: PropTypes.string.isRequired, // Validate eventName as a string and is required
+  description: PropTypes.string.isRequired, // Validate description as a string and is required
 };
 
 export default EventDisplay;

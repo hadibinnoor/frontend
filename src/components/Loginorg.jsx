@@ -1,11 +1,11 @@
 import "./Login.css";
-import LoginForm from "./LoginForm";
 import Navbar from "./Navbar";
 import { useState } from "react";
-import SignupForm from "./SignupForm";
+import Loginasorg from "./Loginasorg";
+import Orgsignup from "./Orgsignup";
 import Footer from "./Footer";
 
-const Login = () => {
+const Loginorg = () => {
   const [isLogin, setIsLogin] = useState(true);
   const toggleTab = () => {
     setIsLogin(false);
@@ -20,11 +20,11 @@ const Login = () => {
           adipisicing elit. Necee nulla architecto quaerat saepe tempora.
         </p>
       </div>
-      {isLogin ? <LoginForm toggle={toggleTab} /> : <SignupForm />}
+      {isLogin ? <Loginasorg toggle={toggleTab} /> : <Orgsignup />}
 
       <Footer />
     </div>
   );
 };
 
-export default Login;
+export default Loginorg;

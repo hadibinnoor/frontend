@@ -1,0 +1,27 @@
+.thanks {
+  margin: 10rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column; /* Ensures elements stack vertically */
+  align-items: center;
+  width: max-content;
+  height: 20rem;
+  background-color: #3a40d8;
+  border-radius: 12px;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+#thanku {
+  font-size: 5rem;
+  color: white;
+  padding: 3rem;
+}
+
+#para {
+  font-size: 1rem;
+  color: white;
+  /* Adds some space between h1 and p */
+  padding: 3rem;
+}

@@ -1,17 +1,19 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
-const LoginForm = ({ toggle }) => {
+const Loginorg = ({ toggle }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   return (
     <div>
+      <Navbar />
       <form action="" className="sign_form">
         <h1 id="font-color">Sign In</h1>
         <h4 id="font-color">
-          <b>personal info</b>
+          <b>Organization info</b>
         </h4>
         <input
           type="text"
@@ -29,18 +31,17 @@ const LoginForm = ({ toggle }) => {
             setPassword(e.target.value);
           }}
         />
-        <button>Sign in</button>
+        <Link to="/Upcomigevent">
+          <button>Sign in</button>
+        </Link>
         <p>-----or continue with google-----</p>
         <button>Continue with google</button>
-        <Link to="/loginorg">
-          <button id="org-button">Login As organization</button>
-        </Link>
         <p>
-          Dont have an account? <span onClick={toggle}>Sign Up </span>
+          Dont have an account? <span onClick={toggle}>signup </span>
         </p>
       </form>
     </div>
   );
 };
 
-export default LoginForm;
+export default Loginorg;
